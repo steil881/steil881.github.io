@@ -1,0 +1,29 @@
+body {
+    background-color: #99FFCC;
+    font-size: 18px;
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: #6600FF;
+}
+
+.two {
+    color: red;
+    font-size: 24px;
+    font-size: 48px;
+}
+
+a {
+    color: orange;
+    text-decoration:none;
+}
+
+#myid {
+    color: black;
+    font-size: 40px;
+}
+
+div {
+    background-color: blue;
+}
