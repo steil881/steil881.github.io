@@ -28,11 +28,6 @@
         a:visited {
         background-color: none;
         }
-      
-
-body {
-     background-repeat: no-repeat;
- }
  
 .image {
     padding: none;
@@ -43,3 +38,9 @@ body {
 .column {
     display: inline-block;
 }
+
+.tree-1 {
+    border-left: 50px;
+    border-top: 300px;
+}
+
