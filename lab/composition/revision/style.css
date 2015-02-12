@@ -3,8 +3,11 @@ body {
  }
  
 .image {
-
     padding: none;
     border: none;
     background-repeat: no-repeat;
+}
+
+.column {
+    display: inline-block;
 }
