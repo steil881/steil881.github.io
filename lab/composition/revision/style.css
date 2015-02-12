@@ -40,7 +40,14 @@
 }
 
 .tree-1 {
+    position: relative;
     border-left: 50px;
     border-top: 300px;
+}
+
+.tree-5 {
+    position: relative;
+    border-left: 1000px;
+    border-top:1000px;
 }
 
