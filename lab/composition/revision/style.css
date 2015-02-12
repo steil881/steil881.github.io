@@ -1,0 +1,10 @@
+body {
+     background-repeat: no-repeat;
+ }
+ 
+.image {
+
+    padding: none;
+    border: none;
+    background-repeat: no-repeat;
+}
