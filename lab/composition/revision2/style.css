@@ -43,6 +43,7 @@
   margin-bottom: 6px;
   height: 60px;
   width: 200px;
+  margin-left: 200px;
 }
 
 .shapeone:before {
@@ -52,7 +53,7 @@
   left: 0;
   height: 100%;
   width: 51%;
-  background: red;
+  background: #99FFCC;
   -webkit-transform: skew(0deg, 6deg);
   -moz-transform: skew(0deg, 6deg);
   -ms-transform: skew(0deg, 6deg);
@@ -66,7 +67,7 @@
   right: 0;
   height: 100%;
   width: 50%;
-  background: red;
+  background: #3333FF;
   -webkit-transform: skew(0deg, -6deg);
   -moz-transform: skew(0deg, -6deg);
   -ms-transform: skew(0deg, -6deg);
