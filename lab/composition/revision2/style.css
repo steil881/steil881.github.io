@@ -36,6 +36,10 @@
             
         }
         
+        body {
+    background-color: #9999FF;
+}
+        
         .shapeone {
   position: relative;
   text-align: center;
@@ -43,7 +47,7 @@
   margin-bottom: 6px;
   height: 60px;
   width: 200px;
-  margin-left: 200px;
+  margin-left: 500px;
 }
 
 .shapeone:before {
@@ -74,3 +78,4 @@
   -o-transform: skew(0deg, -6deg);
   transform: skew(0deg, -6deg);
 }
+
