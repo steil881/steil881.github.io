@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.outer-wrapper {
+    background: #f00;
+    height: 2000px;
+    padding: 30px;
+    width: 960px;
+    margin: 100px auto 0 auto;
+}
+
+.wrapper {
+    height: 2000px;
+    background: #ff0;
+}
+
+.box {
+    width: 280px;
+    height: 280px;
+    background: #000;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    
+    /*static: does not take into account margin settings*/
+    /*absolute: takes it out of the flow of the document; does not move with scroll bar, "absolute" positioning*/
+    /*relative: to the browser window; not the scroll bar; stays within the flow of the document, adjusting from where it would be normally*/
+    /*fixed: takes it out of the flow of the document; "pinned"*/
+}

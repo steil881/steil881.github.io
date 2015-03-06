@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-size: 0px;
+    color: #fff;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.column {
+    height: 60px;
+    display: inline-block;
+    margin: 30 15px 0 15px;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.shelf {
+    height: 10px;
+    width: 460px;
+    display: inline-block;
+    background: #000;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.wrapper {
+    width: 520px;
+    margin: 0 auto 0 auto;
+}
+
+.box {
+    width: 30px;
+    height: 130px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888888;
+    -webkit-transition: width 1.5s;
+}
+
+.box:hover {
+    width: 130px;
+}
+
+/*.box:onclick {*/
+    
+/*}*/
+
+.one {
+    background-color: #FF9999;
+}
+
+.two {
+    background-color: #99FFCC;
+}
+
+.three {
+    background-color: #6699FF;
+}
+
+.four {
+    background-color: #FF5050;
+}
+
+.five {
+    background-color: #FF8A66;
+}
+
+.six {
+    background-color: #FFFF66;
+}
+
+a {
+  display: inline-block;
+  margin: 100px auto 40px auto;
+  color: #000;
+  font-family: Arial, sans-serif;
+  
+}
+
+/*.1:onclick {*/
+    
+/*}*/
+
+    /*static: does not take into account margin settings*/
+    /*absolute: takes it out of the flow of the document; does not move with scroll bar, "absolute" positioning*/
+    /*relative: to the browser window; not the scroll bar; stays within the flow of the document, adjusting from where it would be normally*/
+    /*fixed: takes it out of the flow of the document; "pinned"*/
+
+/*.c1 { width: 130px; }*/
+/*.c2 { width: 290px; }*/
+/*.c3 { width: 450px; }*/
+/*.c4 { width: 610px; }*/
+/*.c5 { width: 770px; }*/
+/*.c6 { width: 930px; }*/

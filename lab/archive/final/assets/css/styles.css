@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-size: 0px;
+    color: #fff;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.wrapper {
+    width: 665px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 30px;
+    height: 130px;
+    display: inline-block;
+    margin: 300px 1.5px 0px 1.5px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    -webkit-transition: height 3s;
+    position: absolute;
+}
+
+.one {
+    top: 0;
+    left: 100;
+    position: fixed;
+}
+
+.two {
+    top: 0;
+    left: 150px;
+    position: fixed;
+}
+
+.three {
+    top: 0;
+    left: 200px;
+    position: fixed;
+}
+
+.four {
+    top: 0;
+    left: 250px;
+    position: fixed;
+}
+
+.five {
+    top: 0;
+    left: 300px;
+    position: fixed;
+}
+
+.six {
+    top: 0;
+    left: 350px;
+    position: fixed;
+}
+
+.seven {
+    top: 0;
+    left: 400px;
+    position: fixed;
+}
+
+
+div:hover{
+    height: 800px;
+}
+
+
+    
+    
+    /*static: does not take into account margin settings*/
+    /*absolute: takes it out of the flow of the document; does not move with scroll bar, "absolute" positioning*/
+    /*relative: to the browser window; not the scroll bar; stays within the flow of the document, adjusting from where it would be normally*/
+    /*fixed: takes it out of the flow of the document; "pinned"*/
+}
+
+/*.c1 { width: 130px; }*/
+/*.c2 { width: 290px; }*/
+/*.c3 { width: 450px; }*/
+/*.c4 { width: 610px; }*/
+/*.c5 { width: 770px; }*/
+/*.c6 { width: 930px; }*/
