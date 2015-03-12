@@ -4,71 +4,147 @@ body {
     color: #fff;
     font-family: arial, helvetica, sans-serif;
     font-weight: 100;
-}
-
-.wrapper {
-    width: 665px;
-    margin: 0 auto;
+    background: url(images/greyscale.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .box {
     width: 30px;
-    height: 130px;
+    height: 30px;
     display: inline-block;
-    margin: 300px 1.5px 0px 1.5px;
-    background: #000;
     color: #fff;
     text-align: center;
-    -webkit-transition: height 3s;
-    position: absolute;
+    -webkit-transition: height 1.5s;
+    border: 2px #f0f;
 }
 
 .one {
-    top: 0;
+    top: 10px;
     left: 100;
     position: fixed;
+    background-image: url("images/1.jpg");
 }
 
 .two {
-    top: 0;
-    left: 150px;
+    top: 10px;
+    left: 131px;
     position: fixed;
+    background-image: url("images/2.jpg");
 }
 
 .three {
-    top: 0;
-    left: 200px;
+    top: 10px;
+    left: 162px;
     position: fixed;
+    background-image: url("images/3.jpg");
 }
 
 .four {
-    top: 0;
-    left: 250px;
+    top: 10px;
+    left: 193px;
     position: fixed;
+    background-image: url("images/4.jpg");
 }
 
 .five {
-    top: 0;
-    left: 300px;
+    top: 10px;
+    left: 224px;
     position: fixed;
+    background-image: url("images/5.jpg");
 }
 
 .six {
-    top: 0;
-    left: 350px;
+    top: 10px;
+    left: 255px;
     position: fixed;
+    background-image: url("images/6.jpg");
 }
 
 .seven {
-    top: 0;
-    left: 400px;
+    top: 10px;
+    left: 286px;
     position: fixed;
+    background-image: url("images/7.jpg");
 }
 
+.eight {
+    top: 10px;
+    left: 317px;
+    position: fixed;
+    background-image: url("images/8.jpg");
+}
+
+.nine {
+    top: 10px;
+    left: 348px;
+    position: fixed;
+    background-image: url("images/9.jpg");
+}
+
+.ten {
+    top: 10px;
+    left: 379px;
+    position: fixed;
+    background-image: url("images/10.jpg");
+}
+
+.eleven {
+    top: 10px;
+    left: 410px;
+    position: fixed;
+    background-image: url("images/11.jpg");
+}
+
+.twelve {
+    top: 10px;
+    left: 441px;
+    position: fixed;
+    background-image: url("images/12.jpg");
+}
+
+.thirteen {
+    top: 10px;
+    left: 472px;
+    position: fixed;
+    background-image: url("images/13.jpg");
+}
+
+.fourteen {
+    top: 10px;
+    left: 503px;
+    position: fixed;
+    background-image: url("images/14.jpg");
+}
+
+.fifteen {
+    top: 10px;
+    left: 534px;
+    position: fixed;
+    background-image: url("images/15.jpg");
+}
+
+.sixteen {
+    top: 10px;
+    left: 565px;
+    position: fixed;
+    background-image: url("images/16.jpg");
+}
+
+.seventeen {
+    top: 10px;
+    left: 596px;
+    position: fixed;
+    background-image: url("images/17.jpg");
+}
 
 div:hover{
-    height: 800px;
+    height: 653px;
 }
+
+
 
 
     
