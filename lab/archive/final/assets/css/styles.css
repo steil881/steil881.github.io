@@ -4,7 +4,7 @@ body {
     color: #fff;
     font-family: arial, helvetica, sans-serif;
     font-weight: 100;
-    background: url(images/background3.jpg) no-repeat center center fixed; 
+    background: url(images/background4.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,126 +18,126 @@ body {
     color: #fff;
     text-align: center;
     -webkit-transition: height 1.8s;
-    border: 2px #f0f;
 }
 
 .one {
     top: 10px;
     left: 100;
     position: fixed;
-    background-image: url("images/1.jpg");
+    background-image: url("images/jasmineh.jpg");
+    border-left: 1px solid #fff;
 }
 
 .two {
     top: 10px;
     left: 131px;
     position: fixed;
-    background-image: url("images/2.jpg");
+    background-image: url("images/megan.jpg");
 }
 
 .three {
     top: 10px;
     left: 162px;
     position: fixed;
-    background-image: url("images/3.jpg");
+    background-image: url("images/lauren.jpg");
 }
 
 .four {
     top: 10px;
     left: 193px;
     position: fixed;
-    background-image: url("images/4.jpg");
+    background-image: url("images/sara.jpg");
 }
 
 .five {
     top: 10px;
     left: 224px;
     position: fixed;
-    background-image: url("images/5.jpg");
+    background-image: url("images/kyle.jpg");
 }
 
 .six {
     top: 10px;
     left: 255px;
     position: fixed;
-    background-image: url("images/6.jpg");
+    background-image: url("images/conny.jpg");
 }
 
 .seven {
     top: 10px;
     left: 286px;
     position: fixed;
-    background-image: url("images/7.jpg");
+    background-image: url("images/urvi.jpg");
 }
 
 .eight {
     top: 10px;
     left: 317px;
     position: fixed;
-    background-image: url("images/8.jpg");
+    background-image: url("images/simen.jpg");
 }
 
 .nine {
     top: 10px;
     left: 348px;
     position: fixed;
-    background-image: url("images/9.jpg");
+    background-image: url("images/zhiyan.jpg");
 }
 
 .ten {
     top: 10px;
     left: 379px;
     position: fixed;
-    background-image: url("images/10.jpg");
+    background-image: url("images/lika.jpg");
 }
 
 .eleven {
     top: 10px;
     left: 410px;
     position: fixed;
-    background-image: url("images/11.jpg");
+    background-image: url("images/urvita.jpg");
 }
 
 .twelve {
     top: 10px;
     left: 441px;
     position: fixed;
-    background-image: url("images/12.jpg");
+    background-image: url("images/theresa.jpg");
 }
 
 .thirteen {
     top: 10px;
     left: 472px;
     position: fixed;
-    background-image: url("images/13.jpg");
+    background-image: url("images/jasminez.jpg");
 }
 
 .fourteen {
     top: 10px;
     left: 503px;
     position: fixed;
-    background-image: url("images/14.jpg");
+    background-image: url("images/herin.jpg");
 }
 
 .fifteen {
     top: 10px;
     left: 534px;
     position: fixed;
-    background-image: url("images/15.jpg");
+    background-image: url("images/kamila.jpg");
 }
 
 .sixteen {
     top: 10px;
     left: 565px;
     position: fixed;
-    background-image: url("images/16.jpg");
+    background-image: url("images/eva.jpg");
 }
 
 .seventeen {
     top: 10px;
     left: 596px;
     position: fixed;
-    background-image: url("images/17.jpg");
+    background-image: url("images/vivian.jpg");
 }
 
 div:hover{
@@ -145,7 +145,39 @@ div:hover{
     border-bottom: 1px solid #fff;
 }
 
+div.feature {
+    position: relative;
+}
+ 
+div.feature a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; 
+    z-index: 10;
+    background-color: #FFF;
+    opacity: 0;
+    filter: alpha(opacity=1);
+}
 
+.info {
+    width: 400px;
+    height: 200px;
+    /*margin: 300px 50px auto auto;*/
+    margin: 500px auto auto -20px;
+    font-size: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #CCCCCC;
+    font-weight: lighter;
+    display: none;
+    position: fixed;
+}
+
+.box:hover .info {
+    display: block;
+}
 
 
     
