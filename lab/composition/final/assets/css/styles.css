@@ -5,7 +5,7 @@ body {
 .wrapper {
     width: 800px;
     height: 100px;
-    margin: 250px 300px auto 360px;
+    margin: 250px 350px auto 350px;
 }
 
 .shapeone {
@@ -161,8 +161,7 @@ body {
 .containerone {
     width: 600px;
     height: 300px;
-    margin: 0 0 0 500px;
-    background-color: #f0f;
+    margin: -80px -50px 100px 200px;
     position: absolute;
     visibility: hidden;
 }
@@ -170,4 +169,111 @@ body {
 .shapeone:hover .containerone {
     visibility: visible;
 }
+
+.containertwo {
+    width: 600px;
+    height: 300px;
+    margin: -270px 300px 0 -500px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.shapetwo:hover .containertwo {
+    visibility: visible;
+}
+
+.containerthree {
+    width: 600px;
+    height: 300px;
+    margin: -300px 150px 400px -100px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.shapethree:hover .containerthree {
+    visibility: visible;
+}
+
+.containerfour {
+    width: 600px;
+    height: 300px;
+    margin: 10px 500px 500px -500px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.shapefour:hover .containerfour {
+    visibility: visible;
+}
+
+.containerfive {
+    width: 600px;
+    height: 300px;
+    margin: 0 300px 0 -200px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.shapefive:hover .containerfive {
+    visibility: visible;
+}
+
+/*.ranbow {*/
+/*-webkit-animation:rainbow 1s infinite;*/
+/*-ms-animation:rainbow 1s infinite;*/
+/*-o-animation:rainbow 1s infinite;*/
+/*animation:rainbow 1s infinite;*/
+/*}*/
+/*@-webkit-keyframes rainbow {*/
+/*0% {color: #ff0000;}*/
+/*10% {color: #ff8000;}*/
+/*20% {color: #ffff00;}*/
+/*30% {color: #80ff00;}*/
+/*40% {color: #00ff00;}*/
+/*50% {color: #00ff80;}*/
+/*60% {color: #00ffff;}*/
+/*70% {color: #0080ff;}*/
+/*80% {color: #0000ff;}*/
+/*90% {color: #8000ff;}*/
+/*100% {color: #ff0080;}*/
+/*}*/
+/*@-ms-keyframes rainbow {*/
+/*0% {color: #ff0000;}*/
+/*10% {color: #ff8000;}*/
+/*20% {color: #ffff00;}*/
+/*30% {color: #80ff00;}*/
+/*40% {color: #00ff00;}*/
+/*50% {color: #00ff80;}*/
+/*60% {color: #00ffff;}*/
+/*70% {color: #0080ff;}*/
+/*80% {color: #0000ff;}*/
+/*90% {color: #8000ff;}*/
+/*100% {color: #ff0080;}*/
+/*}*/
+/*@-o-keyframes rainbow {*/
+/*0% {color: #ff0000;}*/
+/*10% {color: #ff8000;}*/
+/*20% {color: #ffff00;}*/
+/*30% {color: #80ff00;}*/
+/*40% {color: #00ff00;}*/
+/*50% {color: #00ff80;}*/
+/*60% {color: #00ffff;}*/
+/*70% {color: #0080ff;}*/
+/*80% {color: #0000ff;}*/
+/*90% {color: #8000ff;}*/
+/*100% {color: #ff0080;}*/
+/*}*/
+/*@keyframes rainbow {*/
+/*0% {color: #ff0000;}*/
+/*10% {color: #ff8000;}*/
+/*20% {color: #ffff00;}*/
+/*30% {color: #80ff00;}*/
+/*40% {color: #00ff00;}*/
+/*50% {color: #00ff80;}*/
+/*60% {color: #00ffff;}*/
+/*70% {color: #0080ff;}*/
+/*80% {color: #0000ff;}*/
+/*90% {color: #8000ff;}*/
+/*100% {color: #ff0080;}*/
+/*}*/
 
