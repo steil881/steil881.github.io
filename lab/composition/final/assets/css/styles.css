@@ -5,10 +5,10 @@ body {
 .wrapper {
     width: 800px;
     height: 100px;
-    margin: 150px 0 auto 250px;
+    margin: 250px 300px auto 360px;
 }
 
-.shapeone{
+.shapeone {
     border-style: solid;
     border-color: transparent transparent #fff transparent;
     border-width: 0 25px 25px 25px;
@@ -27,13 +27,13 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: #fff transparent transparent transparent;
+    border-color: #E6E6E6 transparent transparent transparent;
     border-width: 70px 50px 0 50px;
 }
 
-.shapetwo{
+.shapetwo {
     border-style: solid;
-    border-color: transparent transparent #FFE6CC transparent;
+    border-color: transparent transparent #CCCCCC transparent;
     border-width: 0 25px 25px 25px;
     height: 0;
     width: 50px;
@@ -50,13 +50,13 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: #FFE6CC transparent transparent transparent;
+    border-color: #B2B2B2 transparent transparent transparent;
     border-width: 70px 50px 0 50px;
 }
 
-.shapethree{
+.shapethree {
     border-style: solid;
-    border-color: transparent transparent #FFDBB8 transparent;
+    border-color: transparent transparent #999999 transparent;
     border-width: 0 25px 25px 25px;
     height: 0;
     width: 50px;
@@ -73,13 +73,13 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: #FFDBB8 transparent transparent transparent;
+    border-color: #808080 transparent transparent transparent;
     border-width: 70px 50px 0 50px;
 }
 
-.shapefour{
+.shapefour {
     border-style: solid;
-    border-color: transparent transparent #B29981 transparent;
+    border-color: transparent transparent #666666 transparent;
     border-width: 0 25px 25px 25px;
     height: 0;
     width: 50px;
@@ -96,13 +96,13 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: #B29981 transparent transparent transparent;
+    border-color: #4D4D4D transparent transparent transparent;
     border-width: 70px 50px 0 50px;
 }
 
-.shapefive{
+.shapefive {
     border-style: solid;
-    border-color: transparent transparent #7D6B5A transparent;
+    border-color: transparent transparent #333333 transparent;
     border-width: 0 25px 25px 25px;
     height: 0;
     width: 50px;
@@ -119,70 +119,54 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: #7D6B5A transparent transparent transparent;
+    border-color: #191919 transparent transparent transparent;
     border-width: 70px 50px 0 50px;
 }
 
-.rainbow:hover {
-    -webkit-animation:rainbow 1s infinite;
-    -ms-animation:rainbow 1s infinite;
-    -o-animation:rainbow 1s infinite;
-    animation:rainbow 1s infinite;
-    }
+.hidden {
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    border-width: 0 25px 25px 25px;
+    height: 0;
+    width: 50px;
+    position: relative;
+    margin: 20px 0 50px 0;
+    float: left
+}
 
-@-webkit-keyframes rainbow {
-    0% {color: #ff0000;}
-    10% {color: #ff8000;}
-    20% {color: #ffff00;}
-    30% {color: #80ff00;}
-    40% {color: #00ff00;}
-    50% {color: #00ff80;}
-    60% {color: #00ffff;}
-    70% {color: #0080ff;}
-    80% {color: #0000ff;}
-    90% {color: #8000ff;}
-    100% {color: #ff0080;}
-    }
+.hidden:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    border-width: 70px 50px 0 50px;
+}
 
-@-ms-keyframes rainbow {
-    0% {color: #ff0000;}
-    10% {color: #ff8000;}
-    20% {color: #ffff00;}
-    30% {color: #80ff00;}
-    40% {color: #00ff00;}
-    50% {color: #00ff80;}
-    60% {color: #00ffff;}
-    70% {color: #0080ff;}
-    80% {color: #0000ff;}
-    90% {color: #8000ff;}
-    100% {color: #ff0080;}
-    }
+.r1 {
+    margin: 70px 0 auto 250px;
+}
 
-@-o-keyframes rainbow {
-    0% {color: #ff0000;}
-    10% {color: #ff8000;}
-    20% {color: #ffff00;}
-    30% {color: #80ff00;}
-    40% {color: #00ff00;}
-    50% {color: #00ff80;}
-    60% {color: #00ffff;}
-    70% {color: #0080ff;}
-    80% {color: #0000ff;}
-    90% {color: #8000ff;}
-    100% {color: #ff0080;}
-    }
+.r2 {
+    margin: 100px 0 auto 400px;
+}
 
-@keyframes rainbow {
-    0% {color: #ff0000;}
-    10% {color: #ff8000;}
-    20% {color: #ffff00;}
-    30% {color: #80ff00;}
-    40% {color: #00ff00;}
-    50% {color: #00ff80;}
-    60% {color: #00ffff;}
-    70% {color: #0080ff;}
-    80% {color: #0000ff;}
-    90% {color: #8000ff;}
-    100% {color: #ff0080;}
-    }
+.r3 {
+    margin: 70px 0 auto 250px;
+}
 
+.containerone {
+    width: 600px;
+    height: 300px;
+    margin: 0 0 0 500px;
+    background-color: #f0f;
+    position: absolute;
+    visibility: hidden;
+}
+
+.shapeone:hover .containerone {
+    visibility: visible;
+}
