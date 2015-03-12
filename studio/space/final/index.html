@@ -61,7 +61,23 @@
             <button onclick="myFunction()">Click me</button>
             <p id="demo"></p>
         
-        <script src="assests/js/application.js"></script>
+        <!--<script src="assests/js/application.js"></script>-->
+        <script>
+            
+            $(document).ready(function() {
+  $('.play-video').on('click', function(ev) {
+ 
+    $(".video")[0].src += "&autoplay=1";
+    ev.preventDefault();
+ 
+  });
+});
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+
+        </script>
     
     </body>
 </html>
