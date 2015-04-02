@@ -35,12 +35,12 @@ body {
 	position: absolute;
 }
 
-.horizontal {
+.horizontal-a {
 	height: 2px;
 	width: 55px;
 }
 
-.vertical {
+.vertical-a {
 	width: 2px;
 	height: 150px;
 }
@@ -76,7 +76,7 @@ body {
 	display: inline-block;
 }
 
-.diagonal {
+.diagonal-a {
     width: 2px;
 	height: 56px;
 	transform: rotate(63deg);
@@ -106,3 +106,16 @@ body {
     left: 150px;
     top: 105px;
 }
+
+.horizontal-b {
+	height: 2px;
+	width: 55px;
+}
+
+.vertical-b {
+	width: 2px;
+	height: 150px;
+}
+
+
+
