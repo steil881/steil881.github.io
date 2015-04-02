@@ -1,0 +1,108 @@
+/*
+fixed
+static
+absolute
+relative
+*/
+
+body {
+	font-size: 0;
+}
+
+.word-wrapper {
+	display: inline-block;
+	margin: 0 30px 100px 0;
+}
+
+/*.aa {
+	width: 660px;
+}*/
+
+.letter-wrapper {
+	display: inline-block;
+	margin: 100px 100px;
+}
+
+.letter {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: inline-block;
+}
+
+.bar {
+	background: #000;
+	position: absolute;
+}
+
+.horizontal {
+	height: 2px;
+	width: 55px;
+}
+
+.vertical {
+	width: 2px;
+	height: 150px;
+}
+
+.a-left {
+	top: 0;
+	left: 48px;
+	transform: rotate(20deg);
+}
+
+.a-right {
+	right: 48px;
+	transform: rotate(-20deg);
+}
+
+.a-mid {
+	left: 47px;
+	top: 75px;
+}
+
+.letter2 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: inline-block;
+	margin: -25px -50px 25px 50px;
+}
+
+.dimension {
+    width: 150px;
+	height: 150px;
+	position: absolute;
+	display: inline-block;
+}
+
+.diagonal {
+    width: 2px;
+	height: 56px;
+	transform: rotate(63deg);
+}
+
+.bottom-left {
+    left: 47px;
+	top: 105px;
+}
+
+.mid-left {
+    left: 74px;
+	top: 35px;
+}
+
+.top {
+    left: 98px;
+	top: -35px;
+}
+
+.mid-right {
+    left: 125px;
+	top: 36px;
+}
+
+.bottom-right {
+    left: 150px;
+    top: 105px;
+}
