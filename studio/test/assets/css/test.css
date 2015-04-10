@@ -1,0 +1,15 @@
+body {
+	font-family: sans-serif, Helvetica, Arial;
+	font-size: 20px;
+}
+
+#horizontal {
+    position: fixed;
+    width: 120px;
+    height: 30px;
+    background-color: #000;
+    left: 0;
+    top: 50px;
+    color: #fff;
+}
+
