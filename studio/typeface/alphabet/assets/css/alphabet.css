@@ -17,6 +17,7 @@ body {
 .letter-wrapper {
 	display: inline-block;
 	margin: 100px 100px;
+	position: relative;
 }
 
 /*GENERAL LETTER START*/
@@ -2244,6 +2245,35 @@ body {
 }
 
 /*LETTER LEFT QUOTE END*/
+
+/*LETTER DASH START*/
+
+.dash-horizontal {
+	height: 2px;
+	width: 145px;
+	left: 0;
+	top: 0;
+}
+
+.dash-diagonal-left {
+    width: 2px;
+	height: 56px;
+	transform: rotate(63deg);
+	left: 25px;
+	top: -40px;
+}
+
+.dash-diagonal-right {
+    width: 2px;
+	height: 56px;
+	transform: rotate(63deg);
+	left: 168px;
+	top: -39px;
+}
+
+
+/*LETTER DASH END*/
+
 
 
 
