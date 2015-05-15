@@ -1,0 +1,1043 @@
+body{
+	font-family:"Helvetica Neue", Helvetica, Sans-serif;
+	size: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+.container {
+	/*position: fixed;*/
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+}
+
+.box{
+  float: left;
+  margin:1px;
+  width: 100px;
+  height:100px;
+  /*border-radius: 10px;
+  background-color: #CCFFCC;
+*/	/*top: 5%;
+	left: 10%;
+	position: absolute;
+	display: inline-block;*/
+}
+
+.button{
+	position: fixed; 
+    height: 50px; 
+    width: 50px; 
+    background-color: #FF6666; 
+    border-radius: 50px; 
+	left: 48%;
+	-webkit-transform: translateX(-52%);
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	box-shadow:#FFFFCC 0 0 25px;
+}
+
+.line{
+  clear:left;
+}
+
+.bg1 {
+	background: url('../../smallerimages/texture1.jpg') no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg2 {
+	background: url('../../smallerimages/texture2.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg3 {
+	background: url('../../smallerimages/texture3.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg4 {
+	background: url('../../smallerimages/texture4.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg5 {
+	background: url('../../smallerimages/texture5.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg6 {
+	background: url('../../textures/smallerimages/texture6.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg7 {
+	background: url('../../textures/smallerimages/texture7.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg8 {
+	background: url('../../textures/smallerimages/texture8.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg9 {
+	background: url('../../textures/smallerimages/texture9.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg10 {
+	background: url('../../textures/smallerimages/texture10.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg11 {
+	background: url('../../textures/smallerimages/texture11.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg12 {
+	background: url('../../textures/smallerimages/texture12.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg13 {
+	background: url('../../textures/smallerimages/texture13.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg14 {
+	background: url('../../textures/smallerimages/texture14.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg15 {
+	background: url('../../textures/smallerimages/texture15.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg16 {
+	background: url('../../textures/smallerimages/texture16.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg17 {
+	background: url('../../textures/smallerimages/texture17.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg18 {
+	background: url('../../textures/smallerimages/texture18.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg19 {
+	background: url('../../textures/smallerimages/texture19.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg20 {
+	background: url('../../textures/smallerimages/texture20.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg21 {
+	background: url('../../textures/smallerimages/texture21.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg22 {
+	background: url('../../textures/smallerimages/texture22.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg23 {
+	background: url('../../textures/smallerimages/texture23.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg24 {
+	background: url('../../textures/smallerimages/texture24.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg25 {
+	background: url('../../textures/smallerimages/texture25.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg26 {
+	background: url('../../textures/smallerimages/texture26.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg27 {
+	background: url('../../textures/smallerimages/texture27.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg28 {
+	background: url('../../textures/smallerimages/texture28.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg29 {
+	background: url('../../textures/smallerimages/texture29.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg30 {
+	background: url('../../textures/smallerimages/texture30.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg31 {
+	background: url('../../textures/smallerimages/texture31.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg32 {
+	background: url('../../textures/smallerimages/texture32.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg33 {
+	background: url('../../textures/smallerimages/texture33.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg34 {
+	background: url('../../textures/smallerimages/texture34.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg35 {
+	background: url('../../textures/smallerimages/texture35.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg36 {
+	background: url('../../textures/smallerimages/texture36.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg37 {
+	background: url('../../textures/smallerimages/texture37.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg38 {
+	background: url('../../textures/smallerimages/texture38.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg39 {
+	background: url('../../textures/smallerimages/texture39.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg40 {
+	background: url('../../textures/smallerimages/texture40.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg41 {
+	background: url('../../textures/smallerimages/texture41.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg42 {
+	background: url('../../textures/smallerimages/texture42.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg43 {
+	background: url('../../textures/smallerimages/texture43.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg44 {
+	background: url('../../textures/smallerimages/texture44.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg45 {
+	background: url('../../textures/smallerimages/texture45.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg46 {
+	background: url('../../textures/smallerimages/texture46.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg47 {
+	background: url('../../textures/smallerimages/texture47.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg48 {
+	background: url('../../textures/smallerimages/texture48.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg49 {
+	background: url('../../textures/smallerimages/texture49.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg50 {
+	background: url('../../textures/smallerimages/texture50.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg51 {
+	background: url('../../textures/smallerimages/texture51.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg52 {
+	background: url('../../textures/smallerimages/texture52.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg53 {
+	background: url('../../textures/smallerimages/texture53.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg54 {
+	background: url('../../textures/smallerimages/texture54.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg55 {
+	background: url('../../textures/smallerimages/texture55.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg56 {
+	background: url('../../textures/smallerimages/texture56.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg57 {
+	background: url('../../textures/smallerimages/texture57.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg58 {
+	background: url('../../textures/smallerimages/texture58.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg59 {
+	background: url('../../textures/smallerimages/texture59.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg60 {
+	background: url('../../textures/smallerimages/texture60.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg61 {
+	background: url('../../textures/smallerimages/texture61.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg62 {
+	background: url('../../textures/smallerimages/texture62.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg63 {
+	background: url('../../textures/smallerimages/texture63.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg64 {
+	background: url('../../textures/smallerimages/texture64.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg65 {
+	background: url('../../textures/smallerimages/texture65.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg66 {
+	background: url('../../textures/smallerimages/texture66.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg67 {
+	background: url('../../textures/smallerimages/texture67.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg68 {
+	background: url('../../textures/smallerimages/texture68.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg69 {
+	background: url('../../textures/smallerimages/texture69.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg70 {
+	background: url('../../textures/smallerimages/texture70.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg71 {
+	background: url('../../textures/smallerimages/texture71.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg72 {
+	background: url('../../textures/smallerimages/texture72.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg73 {
+	background: url('../../textures/smallerimages/texture73.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg74 {
+	background: url('../../textures/smallerimages/texture74.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg75 {
+	background: url('../../textures/smallerimages/texture75.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg76 {
+	background: url('../../textures/smallerimages/texture76.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+}.bg77 {
+	background: url('../../textures/smallerimages/texture77.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg78 {
+	background: url('../../textures/smallerimages/texture78.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg79 {
+	background: url('../../textures/smallerimages/texture79.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg80 {
+	background: url('../../textures/smallerimages/texture80.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg81 {
+	background: url('../../textures/smallerimages/texture81.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg82 {
+	background: url('../../textures/smallerimages/texture82.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg83 {
+	background: url('../../textures/smallerimages/texture83.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg84 {
+	background: url('../../textures/smallerimages/texture84.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg85 {
+	background: url('../../textures/smallerimages/texture85.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg86 {
+	background: url('../../textures/smallerimages/texture86.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg87 {
+	background: url('../../textures/smallerimages/texture87.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg88 {
+	background: url('../../textures/smallerimages/texture88.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg89 {
+	background: url('../../textures/smallerimages/texture89.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg90 {
+	background: url('../../textures/smallerimages/texture90.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg91 {
+	background: url('../../textures/smallerimages/texture91.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg92 {
+	background: url('../../textures/smallerimages/texture92.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg93 {
+	background: url('../../textures/smallerimages/texture93.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg94 {
+	background: url('../../textures/smallerimages/texture94.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg95 {
+	background: url('../../textures/smallerimages/texture95.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg96 {
+	background: url('../../textures/smallerimages/texture96.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg97 {
+	background: url('../../textures/smallerimages/texture97.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg98 {
+	background: url('../../textures/smallerimages/texture98.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg99 {
+	background: url('../../textures/smallerimages/texture99.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg100 {
+	background: url('../../textures/smallerimages/texture100.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg101 {
+	background: url('../../textures/smallerimages/texture101.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg102 {
+	background: url('../../textures/smallerimages/texture102.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg103 {
+	background: url('../../textures/smallerimages/texture103.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg104 {
+	background: url('../../textures/smallerimages/texture104.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg105 {
+	background: url('../../textures/smallerimages/texture105.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg106 {
+	background: url('../../textures/smallerimages/texture106.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg107 {
+	background: url('../../textures/smallerimages/texture107.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg108 {
+	background: url('../../textures/smallerimages/texture108.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg109 {
+	background: url('../../textures/smallerimages/texture109.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg110 {
+	background: url('../../textures/smallerimages/texture110.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg111 {
+	background: url('../../textures/smallerimages/texture111.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg112 {
+	background: url('../../textures/smallerimages/texture112.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg113 {
+	background: url('../../textures/smallerimages/texture113.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg114 {
+	background: url('../../textures/smallerimages/texture114.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg115 {
+	background: url('../../textures/smallerimages/texture115.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg116 {
+	background: url('../../textures/smallerimages/texture116.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg117 {
+	background-color: #fff;
+}
+
+.bg118 {
+	background-color: #fff;
+}
+
+.bg119 {
+	background-color: #fff;
+}
+
+.bg120 {
+	background-color: #fff;
+}
+
+.top-left {
+	position: relative; 
+    height: 0px; 
+    width: 0px; 
+    border-top: 50px solid; 
+    border-left: 50px solid; 
+    border-right: 50px solid transparent; 
+    border-bottom: 50px solid transparent;
+}
+
+.top-right {
+	position: relative; 
+    height: 0px; 
+    width: 0px; 
+    border-top: 50px solid; 
+    border-left: 50px solid transparent; 
+    border-right: 50px solid; 
+    border-bottom: 50px solid transparent;
+}
+
+.bottom-left{
+	position: relative; 
+    height: 0px; 
+    width: 0px; 
+    border-top: 50px solid transparent; 
+    border-left: 50px solid; 
+    border-right: 50px solid transparent; 
+    border-bottom: 50px solid;
+}
+
+.bottom-right{
+	position: relative; 
+    height: 0px; 
+    width: 0px; 
+    border-top: 50px solid transparent; 
+    border-left: 50px solid transparent; 
+    border-right: 50px solid; 
+    border-bottom: 50px solid;
+}
+
+.shape_to_use {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
