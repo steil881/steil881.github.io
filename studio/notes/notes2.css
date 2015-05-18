@@ -1,0 +1,197 @@
+body {
+	font-family: sans-serif, Helvetica, Arial;
+	font-size: 20px;
+	background-color: #B2B2B2;
+}
+
+.sentence-wrapper {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.center {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.letter-wrapper-quote-open {
+    top: -100px;
+    left: 0px;
+    position: relative;
+}
+
+.letter-wrapper-quote-closed {
+    top: -100px;
+    left: 250px;
+    position: relative;
+}
+
+.word-wrapper-things {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.letter-wrapper-things-t {
+    top: 0px;
+    left: 200px;
+    position: relative;
+}
+
+.letter-wrapper-things-h {
+    top: 0px;
+    left: 350px;
+    position: relative;
+}
+
+.letter-wrapper-things-i {
+    top: 0px;
+    left: 525px;
+    position: relative;
+}
+
+.letter-wrapper-things-n {
+    top: 0px;
+    left: 650px;
+    position: relative;
+}
+
+.letter-wrapper-things-g {
+    top: 0px;
+    left: 825px;
+    position: relative;
+}
+
+.letter-wrapper-things-s {
+    top: 0px;
+    left: 1030px;
+    position: relative;
+}
+
+.word-wrapper-are {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.letter-wrapper-are-a {
+    top: 275px;
+    left: 0px;
+    position: relative;
+}
+
+.letter-wrapper-are-r {
+    top: 275px;
+    left: 200px;
+    position: relative;
+}
+
+.letter-wrapper-are-e {
+    top: 275px;
+    left: 370px;
+    position: relative;
+}
+
+.word-wrapper-not {
+    top: 100px;
+    left: 300px;
+}
+
+.letter-wrapper-not-n {
+    top: 550px;
+    left: 0px;
+    position: relative;
+}
+
+.letter-wrapper-not-o {
+    top: 550px;
+    left: 175px;
+    position: relative;
+}
+
+.letter-wrapper-not-t {
+    top: 550px;
+    left: 375px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+.letter-wrapper-quote-open {
+    top: -50px;
+    left: 0px;
+    position: relative;
+}
+
+.letter-wrapper-quote-closed {
+    top: -70px;
+    left: 625px;
+    position: relative;
+}
+
+.pending {
+    top: 150px;
+    left: 200px;
+    position: relative;
+}
+
+.letter-period {
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.period-one {
+    top: 0px;
+    left: 50px;
+}
+
+.period-two {
+    top: 0px;
+    left: 150px;
+}
+
+.period-three {
+    top: 0px;
+    left: 250px;
+}
+
+.word-wrapper-quote-one {
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+
+.word-wrapper-quote-two {
+    top: 200px;
+    left: 0px;
+    position: relative;
+}
+
+.word-wrapper-quote-three {
+    top: 400px;
+    left: 0px;
+    position: relative;
+}
+
+
+
